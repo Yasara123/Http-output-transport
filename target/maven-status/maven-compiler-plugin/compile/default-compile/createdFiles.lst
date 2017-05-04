@@ -1,0 +1,4 @@
+org/wso2/siddhi/extension/output/transport/http/HttpConstants.class
+org/wso2/siddhi/extension/output/transport/http/HttpOutputTransport.class
+org/wso2/siddhi/extension/output/transport/http/HTTPPublisher.class
+META-INF/annotations/org.wso2.siddhi.annotation.Extension

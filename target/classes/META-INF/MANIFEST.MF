@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1493748621692
+Build-Jdk: 1.8.0_121
+Built-By: yasara
+Bundle-Description: Siddhi, high performing Complex Event Processing Eng
+ ine
+Bundle-DocURL: http://www.wso2.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: siddhi-extension-http-output-transport
+Bundle-SymbolicName: siddhi-extension-http-output-transport
+Bundle-Vendor: WSO2
+Bundle-Version: 4.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.siddhi.extension.output.transport.http;uses:="o
+ rg.wso2.carbon.messaging,org.wso2.carbon.transport.http.netty.sender,or
+ g.wso2.siddhi.annotation,org.wso2.siddhi.core.config,org.wso2.siddhi.co
+ re.exception,org.wso2.siddhi.core.stream.output.sink,org.wso2.siddhi.co
+ re.util.transport,org.wso2.siddhi.query.api.definition";version="4.0.0"
+Import-Package: org.apache.commons.httpclient;resolution:=optional,org.a
+ pache.log4j;resolution:=optional;version="[1.2,2)",org.wso2.carbon.mess
+ aging;resolution:=optional;version="[2.0,3)",org.wso2.carbon.messaging.
+ exceptions;resolution:=optional;version="[2.0,3)",org.wso2.carbon.trans
+ port.http.netty.listener;resolution:=optional;version="[4.3,5)",org.wso
+ 2.carbon.transport.http.netty.message;resolution:=optional,org.wso2.car
+ bon.transport.http.netty.sender;resolution:=optional;version="[4.3,5)",
+ org.wso2.siddhi.annotation;resolution:=optional;version="[4.0,5)",org.w
+ so2.siddhi.core.config;resolution:=optional;version="[4.0,5)",org.wso2.
+ siddhi.core.exception;resolution:=optional;version="[4.0,5)",org.wso2.s
+ iddhi.core.stream.output.sink;resolution:=optional;version="[4.0,5)",or
+ g.wso2.siddhi.core.util.transport;resolution:=optional;version="[4.0,5)
+ ",org.wso2.siddhi.query.api.definition;resolution:=optional;version="[4
+ .0,5)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
